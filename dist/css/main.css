@@ -201,7 +201,7 @@ main {
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background-color: #2d79db;
-    color: #000; }
+    transition: all 0.5s ease-out; }
 
 .btn-dark {
   background: #b3b3b3;
@@ -210,6 +210,8 @@ main {
 .btn-light {
   background: white;
   color: #333; }
+  .btn-light:hover {
+    color: #fff; }
 
 #main-footer {
   text-align: center;

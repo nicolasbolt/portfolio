@@ -141,7 +141,7 @@ main {
 
   &:hover {
     background-color: $secondary-color;
-    color: set-text-color($secondary-color);
+    @include easeOut;
   }
 }
 
@@ -155,6 +155,10 @@ main {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+
+  &:hover {
+    color: #fff;
+  }
 }
 
 #main-footer {
