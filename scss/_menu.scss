@@ -40,7 +40,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: .96;
   visibility: hidden;
 
   &.show {
@@ -83,7 +83,8 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
+      background: url('../img/picture-sq.jpeg');
+      background-size: contain;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
