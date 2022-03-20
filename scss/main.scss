@@ -113,22 +113,38 @@ main {
 
   .job-1 {
     grid-area: job1;
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
   }
 
   .job-2 {
     grid-area: job2;
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
   }
 
   .job-3 {
     grid-area: job3;
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
   }
 
   .job {
-    padding: 1rem 1.5rem;
+    padding: 1.5rem;
     border-radius: 5px;
     background-color: $primary-color;
     color: set-text-color($primary-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    min-height: 200px;
 
     .border {
       border-bottom: $secondary-color 5px solid;
