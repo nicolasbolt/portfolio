@@ -172,6 +172,12 @@ main {
     margin-bottom: 20px;
   }
 
+  // .item-header {
+  //   overflow: hidden;
+  //   white-space: nowrap;
+  //   text-overflow: ellipsis;
+  // }
+
   .item {
     padding: 1rem 1.5rem;
     border-radius: 5px;
@@ -183,9 +189,10 @@ main {
       width: 100%;
       border: 2px #333 solid;
       border-radius: 5px;
+      @include easeOut;
 
       &:hover {
-        opacity: 0.5;
+        opacity: 0.85;
         border-color: $secondary-color;
         @include easeOut;
       }

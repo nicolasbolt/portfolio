@@ -239,9 +239,10 @@ main {
     .projects .item img {
       width: 100%;
       border: 2px #333 solid;
-      border-radius: 5px; }
+      border-radius: 5px;
+      transition: all 0.3s ease-out; }
       .projects .item img:hover {
-        opacity: 0.5;
+        opacity: 0.85;
         border-color: #2d79db;
         transition: all 0.3s ease-out; }
 
