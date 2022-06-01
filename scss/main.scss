@@ -140,11 +140,11 @@ main {
 
   .job {
     padding: 1.5rem;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: $primary-color;
     color: set-text-color($primary-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    min-height: 200px;
+    min-height: 325px;
 
     .border {
       border-bottom: $secondary-color 5px solid;
@@ -180,7 +180,7 @@ main {
 
   .item {
     padding: 1rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: $primary-color;
     color: set-text-color($primary-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
